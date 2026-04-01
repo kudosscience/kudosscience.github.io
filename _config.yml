@@ -1,0 +1,26 @@
+title: Kudos Science
+description: AI engineering services for businesses that want measurable outcomes.
+url: "https://kudosscience.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: default
+markdown: kramdown
+permalink: pretty
+
+author:
+  name: Kudos Science
+  bio: Practical AI engineering for business growth, efficiency, and decision quality.
+  location: Remote
+  links:
+    - label: Book a discovery call
+      icon: "fas fa-calendar-check"
+      url: "https://calendly.com/your-name/30min"
+
+search: false
+atom_feed:
+  hide: true

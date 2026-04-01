@@ -1,0 +1,14 @@
+{
+    "snyk.advanced.organization": "b8a59d76-710b-4e54-a3a3-3ea85378362e",
+    "snyk.advanced.autoSelectOrganization": true,
+    "files.exclude": {
+        "**/_site": true,
+        "**/.tmp_site": true
+    },
+    "search.exclude": {
+        "**/_site": true,
+        "**/.tmp_site": true
+    },
+    "css.validate": false,
+    "html.validate.styles": false
+}
