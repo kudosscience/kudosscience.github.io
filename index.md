@@ -87,4 +87,4 @@ If your team wants to move from experimentation to measurable business impact, t
   title="Schedule a strategy call with Kudos Science"
 ></iframe>
 
-Placeholder booking link in use. Replace with your real Calendly URL when ready.
+<p class="calendly-note">Placeholder booking link in use. Replace with your real Calendly URL when ready.</p>
