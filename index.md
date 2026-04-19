@@ -83,8 +83,6 @@ If your team wants to move from experimentation to measurable business impact, t
 
 <iframe
   class="calendly-embed"
-  src="https://calendly.com/your-name/30min?hide_gdpr_banner=1"
-  title="Schedule a strategy call with Kudos Science"
+  src="{{ site.calendly_url }}"
+  title="Schedule a strategy call with me"
 ></iframe>
-
-<p class="calendly-note">Placeholder booking link in use. Replace with your real Calendly URL when ready.</p>

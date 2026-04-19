@@ -2,6 +2,7 @@ title: Kudos Science
 description: AI engineering services for businesses that want measurable outcomes.
 url: "https://kudosscience.github.io"
 baseurl: ""
+calendly_url: "https://calendly.com/henryaward/lesson"
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
@@ -19,7 +20,7 @@ author:
   links:
     - label: Book a discovery call
       icon: "fas fa-calendar-check"
-      url: "https://calendly.com/your-name/30min"
+      url: "#book-a-call"
 
 search: false
 atom_feed:

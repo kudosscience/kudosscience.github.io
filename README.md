@@ -1,6 +1,6 @@
 # kudosscience.github.io
 
-Professional single-page website for Kudos Science, focused on AI engineering services for B2B clients.
+Professional single-page website for Henry Ward, focused on AI engineering services for B2B clients.
 
 ## Stack
 
@@ -18,7 +18,7 @@ Professional single-page website for Kudos Science, focused on AI engineering se
 ## Content updates
 
 - Edit `index.md` for service copy and value propositions.
-- Replace the placeholder Calendly URL in `index.md` and `_config.yml`.
+- Update `calendly_url` in `_config.yml` to change the booking embed destination.
 - Edit `assets/css/main.scss` for brand styling.
 
 ## Deployment

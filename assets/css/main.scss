@@ -53,12 +53,20 @@ body {
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(16, 33, 51, 0.06);
   padding: 0.5rem;
-  transition: transform 160ms ease, box-shadow 160ms ease;
 }
 
 .feature__item:hover {
-  transform: translateY(-3px);
   box-shadow: 0 14px 30px rgba(16, 33, 51, 0.1);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .feature__item {
+    transition: transform 160ms ease, box-shadow 160ms ease;
+  }
+
+  .feature__item:hover {
+    transform: translateY(-3px);
+  }
 }
 
 .feature__item .archive__item-title {
@@ -72,7 +80,8 @@ body {
 .calendly-embed {
   width: 100%;
   min-width: 320px;
-  height: 720px;
+  min-height: 560px;
+  height: min(78vh, 760px);
   border: 1px solid var(--surface-border);
   border-radius: 12px;
   background: #ffffff;
@@ -85,10 +94,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .calendly-embed {
-    height: 620px;
-  }
-
   .page__hero .page__lead {
     font-size: 1rem;
   }
