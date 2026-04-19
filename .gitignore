@@ -1,0 +1,17 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Dependency and bundler folders
+vendor/
+.bundle/
+
+# OS/editor files
+Thumbs.db
+.DS_Store
+
+# Environment secrets
+.env
+.env.*

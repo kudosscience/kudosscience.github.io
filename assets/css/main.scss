@@ -1,0 +1,100 @@
+---
+# Front matter is required for Jekyll to process this Sass file.
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+:root {
+  --brand-primary: #0a4f8a;
+  --brand-secondary: #0f766e;
+  --brand-accent: #d4a73f;
+  --surface-soft: #f4f7fb;
+  --surface-border: #dbe5f0;
+  --text-strong: #102133;
+  --text-muted: #475569;
+}
+
+body {
+  color: var(--text-strong);
+  background: linear-gradient(180deg, #f8fbff 0%, #eef4fa 35%, #ffffff 100%);
+}
+
+.masthead {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid var(--surface-border);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.page__hero--overlay {
+  background-image: linear-gradient(135deg, rgba(10, 79, 138, 0.92), rgba(15, 118, 110, 0.85));
+}
+
+.page__hero .btn,
+.btn--primary {
+  background-color: var(--brand-primary);
+  border-color: var(--brand-primary);
+}
+
+.page__hero .btn:hover,
+.btn--primary:hover {
+  background-color: #083f6d;
+  border-color: #083f6d;
+}
+
+.feature__wrapper {
+  margin-top: 1.5rem;
+}
+
+.feature__item {
+  background: #ffffff;
+  border: 1px solid var(--surface-border);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(16, 33, 51, 0.06);
+  padding: 0.5rem;
+}
+
+.feature__item:hover {
+  box-shadow: 0 14px 30px rgba(16, 33, 51, 0.1);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .feature__item {
+    transition: transform 160ms ease, box-shadow 160ms ease;
+  }
+
+  .feature__item:hover {
+    transform: translateY(-3px);
+  }
+}
+
+.feature__item .archive__item-title {
+  color: var(--brand-primary);
+}
+
+.feature__item .archive__item-excerpt {
+  color: var(--text-muted);
+}
+
+.calendly-embed {
+  width: 100%;
+  min-width: 320px;
+  min-height: 560px;
+  height: min(78vh, 760px);
+  border: 1px solid var(--surface-border);
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.calendly-note {
+  margin-top: 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .page__hero .page__lead {
+    font-size: 1rem;
+  }
+}
