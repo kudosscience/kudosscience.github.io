@@ -61,21 +61,9 @@ body {
   box-shadow: 0 14px 30px rgba(16, 33, 51, 0.1);
 }
 
-.feature__item--left .archive__item,
-.feature__item--left .archive__item-body {
-  float: none;
-  width: 100%;
-  padding-inline: 0;
-}
-
 .feature__item .archive__item-teaser,
 .feature__item--left .archive__item-teaser {
   margin-bottom: 0.75rem;
-}
-
-.feature__item--left .archive__item-teaser {
-  float: none;
-  width: 100%;
 }
 
 .feature__item .archive__item-teaser img,
@@ -127,6 +115,18 @@ body {
 }
 
 @media (max-width: 768px) {
+  .feature__item--left .archive__item,
+  .feature__item--left .archive__item-body {
+    float: none;
+    width: 100%;
+    padding-inline: 0;
+  }
+
+  .feature__item--left .archive__item-teaser {
+    float: none;
+    width: 100%;
+  }
+
   .page__hero .page__lead {
     font-size: 1rem;
   }

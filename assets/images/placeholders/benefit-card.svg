@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Decorative benefit placeholder">
+  <defs>
+    <linearGradient id="benefitGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff8ea"/>
+      <stop offset="100%" stop-color="#ffe7b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#benefitGrad)"/>
+  <path d="M120 500 L320 300 L520 410 L730 180 L980 320" fill="none" stroke="#7a5a1e" stroke-opacity="0.35" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="320" cy="300" r="22" fill="#7a5a1e" fill-opacity="0.45"/>
+  <circle cx="520" cy="410" r="22" fill="#7a5a1e" fill-opacity="0.45"/>
+  <circle cx="730" cy="180" r="22" fill="#7a5a1e" fill-opacity="0.45"/>
+  <text x="600" y="618" text-anchor="middle" font-size="54" font-family="Segoe UI, Arial, sans-serif" fill="#7a5a1e">Benefit Placeholder</text>
+</svg>
