@@ -1,10 +1,10 @@
-# PBI-1: Kudos Science B2B AI Engineering Website
+# PBI-1: Henry Ward B2B AI Engineering Website
 
 [View in Backlog](../backlog.md#product-backlog)
 
 ## Overview
 
-Create a professional single-page marketing website on GitHub Pages for Kudos Science that positions AI engineering services for general B2B clients.
+Create a professional single-page marketing website on GitHub Pages for Henry Ward that positions AI engineering services for general B2B clients.
 
 ## Problem Statement
 

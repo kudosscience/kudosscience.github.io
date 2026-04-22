@@ -1,8 +1,8 @@
-# Tasks for PBI 1: Kudos Science B2B AI Engineering Website
+# Tasks for PBI 1: Henry Ward B2B AI Engineering Website
 
 This document lists all tasks associated with PBI 1.
 
-**Parent PBI**: [PBI 1: Kudos Science B2B AI Engineering Website](./prd.md)
+**Parent PBI**: [PBI 1: Henry Ward B2B AI Engineering Website](./prd.md)
 
 ## Task Summary
 

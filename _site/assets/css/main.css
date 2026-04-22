@@ -1324,15 +1324,17 @@ body { color: var(--text-strong); background: linear-gradient(180deg, #f8fbff 0%
 
 .feature__wrapper { margin-top: 1.5rem; }
 
-.feature__item { background: #ffffff; border: 1px solid var(--surface-border); border-radius: 12px; box-shadow: 0 8px 24px rgba(16, 33, 51, 0.06); padding: 0.5rem; }
+.feature__item, .feature__item--left { background: #ffffff; border: 1px solid var(--surface-border); border-radius: 12px; box-shadow: 0 8px 24px rgba(16, 33, 51, 0.06); padding: 0.5rem; }
 
-.feature__item:hover { box-shadow: 0 14px 30px rgba(16, 33, 51, 0.1); }
+.feature__item:hover, .feature__item--left:hover { box-shadow: 0 14px 30px rgba(16, 33, 51, 0.1); }
 
-@media (prefers-reduced-motion: no-preference) { .feature__item { transition: transform 160ms ease, box-shadow 160ms ease; }
-  .feature__item:hover { transform: translateY(-3px); } }
-.feature__item .archive__item-title { color: var(--brand-primary); }
+.feature__item--left .archive__item, .feature__item--left .archive__item-body { float: none; width: 100%; padding-inline: 0; }
 
-.feature__item .archive__item-excerpt { color: var(--text-muted); }
+@media (prefers-reduced-motion: no-preference) { .feature__item, .feature__item--left { transition: transform 160ms ease, box-shadow 160ms ease; }
+  .feature__item:hover, .feature__item--left:hover { transform: translateY(-3px); } }
+.feature__item .archive__item-title, .feature__item--left .archive__item-title { color: var(--brand-primary); }
+
+.feature__item .archive__item-excerpt, .feature__item--left .archive__item-excerpt { color: var(--text-muted); }
 
 .calendly-embed { width: 100%; min-width: 320px; min-height: 560px; height: min(78vh, 760px); border: 1px solid var(--surface-border); border-radius: 12px; background: #ffffff; }
 
