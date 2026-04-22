@@ -68,6 +68,26 @@ body {
   padding-inline: 0;
 }
 
+.feature__item .archive__item-teaser,
+.feature__item--left .archive__item-teaser {
+  margin-bottom: 0.75rem;
+}
+
+.feature__item--left .archive__item-teaser {
+  float: none;
+  width: 100%;
+}
+
+.feature__item .archive__item-teaser img,
+.feature__item--left .archive__item-teaser img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--surface-border);
+  background: var(--surface-soft);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .feature__item,
   .feature__item--left {
