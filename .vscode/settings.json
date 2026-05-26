@@ -1,4 +1,4 @@
-ss{
+{
     "files.exclude": {
         "**/_site": true,
         "**/.tmp_site": true
